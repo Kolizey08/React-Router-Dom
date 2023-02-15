@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+
+.divBody {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.divTelo {
+    width: 50%;
+    padding: 16px;
+}
+
+.divHeadar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 165px; */
+}
+
+.textLogo {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: inherit;
+}
+
+.divSilok {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.silki {
+    text-decoration: none;
+    color: #767575;
+    font-family: inherit;
+}
+
+.divMain {
+    width: 90%;
+    margin: auto;
+}
+
+.mainTelo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    margin: auto;
+    height: 240px;
+    margin-top: 165px;
+    margin-bottom: 225px;
+}
+
+.mainTitle {
+    font-size: 40px;
+    color: #FFFFFF;   
+}
+
+.mainText {
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.mainBtn {
+    font-size: 20px;
+    padding: 12px 20px;
+    font-family: system-ui;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    border: 1px;
+    border-radius: 3px;
+}
+
+.divFuter {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 225px; */
+}
+
+.futerText {
+    font-size: 16px;
+    color: #bdbdbd;
+
+}
+
+.futerSilki{
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.active {
+    color: #FFFFFF;
+    border-bottom: 4px solid #FFFFFF ;
+    cursor: default;
+    padding-bottom: 5px;
+}
+
+.mainTeloContact {
+margin-top: 30px;
+margin-bottom: 30px;
+}
